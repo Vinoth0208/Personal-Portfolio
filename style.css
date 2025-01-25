@@ -329,6 +329,9 @@ article .icon{
     flex-direction: column;
     height: 70vh;
 }
+.link{
+    color: blue; 
+}
 .contact-info-upper-container{
     display: flex;
     justify-content: center;
@@ -361,4 +364,17 @@ footer{
 }
 footer p{
     text-align: center;
+}
+ul {
+    
+    margin: 0;
+    padding: 0;
+    padding-left: 40px;
+}
+
+/* Style for each list item */
+ul li .class {
+    list-style-type: disc;
+    padding-left: 20px; /* Indentation for each list item */
+    margin-bottom: 5px;  /* Space between list items */
 }
